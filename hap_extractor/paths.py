@@ -88,7 +88,7 @@ def make_default_output_names(mode, debug, min_sample_count, vcf_path):
     vcf_basename = get_vcf_basename(vcf_path)
 
     hap_output = (
-        f"haps{filtered_suffix}.{mode_tag}.{debug_suffix}.{vcf_basename}.tsv"
+        f"haps{filtered_suffix}.{mode_tag}.{debug_suffix}.{vcf_basename}.hap.tsv"
     )
 
     summary_output = (
